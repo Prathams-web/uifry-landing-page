@@ -8,6 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      // backgroundImage: {
+      //   'hero-pattern': "url('/assets/bg_glow.png')",
+      //   'hero-ring': "url('/assets/hero_ring.png')",
+        
+      // },
+      colors: {
+        customRed: '#FF5555', // Add your custom color here
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
